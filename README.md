@@ -3,10 +3,10 @@
 
 - Criado por:
 
-- Richard
+  - Richard
 
 - Tecnologias e linguagens utilizadas:
 
-- Html
-- Css
-- Javascript
+  - Html
+  - Css
+  - Javascript
