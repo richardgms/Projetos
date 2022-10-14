@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  text-align: center;
+  color: white;
+  background-color: black;
+  background-image: url(./assets/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+article{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 80px;
+}
+
+h2{
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#iptNumber {
+  border: 2px solid #86238c;
+  background-color: #f4d2fb;
+  padding: 5px 0px;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  border: 2px solid white;
+  background-color: #86238c;
+  color: white;
+  border-radius: 5px;
+  padding: 6px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+#jogarNovamente{
+  visibility: hidden;
+}
+
+
+input[type="submit"]:hover {
+  transition: 0.3s;
+  border: 2px solid #86238c;
+  background-color: white;
+  color: #86238c;
+}
+
+#resultado{
+  font-size: 18px;
+}
